@@ -21,7 +21,7 @@ local function vim_highlights(highlights)
 end
 
 local colors = {
-	Fg = { fg = c.fg },
+	Fg = { fg = c.sky },
 	LightGrey = { fg = c.sky_p },
 	Grey = { fg = c.sky_m },
 	Red = { fg = c.red },
@@ -106,12 +106,12 @@ hl.common = {
 
 hl.syntax = {
 	String = { fg = c.green, fmt = cfg.code_style.strings },
-	Character = colors.Orange,
-	Number = colors.Orange,
-	Float = colors.Orange,
-	Boolean = colors.Orange,
-	Type = colors.Yellow,
-	Structure = colors.Yellow,
+	Character = colors.Yellow,
+	Number = colors.Yellow,
+	Float = colors.Yellow,
+	Boolean = colors.Yellow,
+	Type = colors.Orange,
+	Structure = colors.Orange,
 	StorageClass = colors.Purple,
 	Identifier = { fg = c.red, fmt = cfg.code_style.variables },
 	Constant = colors.Cyan,
